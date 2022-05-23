@@ -1028,7 +1028,7 @@
     (property "Value" "VBPW34FAS" (id 1) (at 57.15 82.5499 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "VBPW34FAS" (id 2) (at 53.34 86.36 0)
+    (property "Footprint" "" (id 2) (at 53.34 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/2/VBPW34FAS.pdf" (id 3) (at 50.8 86.36 0)

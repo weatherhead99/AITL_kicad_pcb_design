@@ -1323,7 +1323,7 @@
       (reference "C21") (unit 1) (value "10uF") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/5ce095f3-e38c-45ce-8672-a4bac6e6c0b6"
-      (reference "D1") (unit 1) (value "VBPW34FAS") (footprint "VBPW34FAS")
+      (reference "D1") (unit 1) (value "VBPW34FAS") (footprint "cosmic_ray_detector_lib:VBPW34FAS")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/cb83f0da-b61c-410a-ade6-20d9d6cfa25e"
       (reference "D2") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
@@ -1332,10 +1332,10 @@
       (reference "D3") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
-      (reference "IC1") (unit 1) (value "TLV3501AIDBVTG4") (footprint "SOT95P280X145-6N")
+      (reference "IC1") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
-      (reference "IC2") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "SOP50P490X110-10N")
+      (reference "IC2") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
     )
     (path "/6eef247d-24ee-4250-a3f8-9d4a08136ccb"
       (reference "J1") (unit 1) (value "MOLEX micro-fit 43045-0210") (footprint "")
@@ -1413,10 +1413,10 @@
       (reference "U1") (unit 3) (value "TL072") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/afc5c3f9-3c42-4bce-8ae8-32d1ae268c1e"
-      (reference "U2") (unit 1) (value "TPS7A30") (footprint "SPIRIT:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+      (reference "U2") (unit 1) (value "TPS7A30") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b2403965-d978-49c7-a324-3bd38b59deb0"
-      (reference "U3") (unit 1) (value "TPS7A49") (footprint "SPIRIT:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+      (reference "U3") (unit 1) (value "TPS7A49") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
   )
 )

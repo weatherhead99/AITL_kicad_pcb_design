@@ -731,7 +731,7 @@
     (property "Value" "AD5270BRMZ-100-RL7" (id 1) (at 136.7664 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SOP50P490X110-10N" (id 2) (at 148.082 82.804 0)
+    (property "Footprint" "" (id 2) (at 148.082 82.804 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AD5270BRMZ-100-RL7.pdf" (id 3) (at 148.082 85.344 0)
