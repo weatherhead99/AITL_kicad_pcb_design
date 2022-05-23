@@ -26,9 +26,22 @@
     )
   )
 
+  (sheet (at 170.18 83.82) (size 39.37 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7a79d2b-04f1-477d-ba1e-3ead0da72cb2)
+    (property "Sheet name" "Power Regulators" (id 0) (at 170.18 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 170.18 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc" (page "2"))
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2" (page "3"))
   )
 
   (symbol_instances
@@ -38,8 +51,14 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/57b1cafd-58e2-47d3-b840-730523ad81f3"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/756a1507-197a-4c44-94ef-e8e9a1eef76a"
+      (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/7679be59-26dc-4454-b2da-eed77ae8ca61"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9655ba35-47d3-4169-b523-4be8b3cae6cb"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/bc0e4a6e-3840-474e-ac2c-78c98c270528"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
@@ -47,17 +66,38 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/be760ee8-b8e2-4fce-815d-a09c109067fe"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/f52ef7d1-297a-4568-9461-772fe93412e2"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/352e1d1f-d8c0-4df3-82c0-73f9fc548b81"
       (reference "C?") (unit 1) (value "~") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/47bec3f2-2465-4aeb-9885-7c5ce317b7e4"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/4b8fbe85-76b0-4124-a5a3-59a8051e7609"
+      (reference "C?") (unit 1) (value "10nF") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/64d6d08c-f5e1-413e-9e3e-c0a6aeb2fc5f"
       (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/71923108-ae47-4f0d-8f85-d0c61523d4ff"
+      (reference "C?") (unit 1) (value "10nF") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/79ed462d-78ce-428f-b78d-4ae19b33c4e8"
+      (reference "C?") (unit 1) (value "22nF") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9342db19-454a-448f-a9b0-e083f29fdbc6"
       (reference "C?") (unit 1) (value "~") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/ade73c7f-6d57-424e-b3c9-b2d23c54b285"
       (reference "C?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b0a82baf-ff23-42e4-95ab-ccde60e13fd7"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b873aaae-3580-4bc9-8b5a-0df5ac47c43f"
+      (reference "C?") (unit 1) (value "22nF") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/b8ce0ab1-12e9-4729-8cf0-b6c9aa72ce7b"
       (reference "C?") (unit 1) (value "C_Polarized_US") (footprint "")
@@ -68,17 +108,47 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/c88f5eb6-4f37-4df1-b35c-8521901901d5"
       (reference "C?") (unit 1) (value "~") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/d84d3b19-8918-4b4c-899a-aa4a8a4bb9b5"
+      (reference "C?") (unit 1) (value "10nF") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/e70e6158-5df2-4b28-bcf8-431998879b2d"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/5ce095f3-e38c-45ce-8672-a4bac6e6c0b6"
       (reference "D?") (unit 1) (value "VBPW34FAS") (footprint "VBPW34FAS")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9bea8bdd-b087-4fac-a78f-b3ebb429045e"
+      (reference "D?") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/cb83f0da-b61c-410a-ade6-20d9d6cfa25e"
+      (reference "D?") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/2a7929ff-9f40-4bd1-bcfb-e606c3c4db50"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/33970c63-f931-486c-9740-29ed26af6d58"
       (reference "R?") (unit 1) (value "~") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/355eb33b-a5b9-4f3d-ac06-a25dd984ce3d"
+      (reference "R?") (unit 1) (value "12.7k") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/43a8e6ec-b394-4d3f-8cb4-c9eccd98a185"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/53e58d3c-d339-4677-acde-ecac96daf7c3"
+      (reference "R?") (unit 1) (value "13k") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/59fbb484-d156-47af-8542-9f0fbf50742e"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9b646f2f-527d-40aa-802c-6f5e73d270f5"
       (reference "R?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/afc5c3f9-3c42-4bce-8ae8-32d1ae268c1e"
+      (reference "U?") (unit 1) (value "TPS7A30") (footprint "SPIRIT:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+    )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b2403965-d978-49c7-a324-3bd38b59deb0"
+      (reference "U?") (unit 1) (value "TPS7A49") (footprint "SPIRIT:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/dc6a577a-adb1-40f6-969b-35ca6dfaa8da"
       (reference "U?") (unit 1) (value "TL072") (footprint "")
