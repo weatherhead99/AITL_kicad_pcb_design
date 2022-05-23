@@ -328,6 +328,10 @@
     [
       "a7a79d2b-04f1-477d-ba1e-3ead0da72cb2",
       "Power Regulators"
+    ],
+    [
+      "86d8b01b-5c34-47c3-904c-67d3d9a70426",
+      "comparator"
     ]
   ],
   "text_variables": {}

@@ -14,26 +14,63 @@
   )
 
 
-  (sheet (at 33.02 48.26) (size 69.85 34.29) (fields_autoplaced)
+  (wire (pts (xy 117.094 85.598) (xy 145.796 85.598))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b178cde1-4b28-4b2c-be8b-dee761b3b566)
+  )
+
+  (sheet (at 94.234 76.708) (size 22.86 14.224) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc)
-    (property "Sheet name" "detector_frontend" (id 0) (at 33.02 47.5484 0)
+    (property "Sheet name" "detector_frontend" (id 0) (at 94.234 75.9964 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "frontend.kicad_sch" (id 1) (at 33.02 83.1346 0)
+    (property "Sheet file" "frontend.kicad_sch" (id 1) (at 94.234 91.5166 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VBIAS" passive (at 94.234 81.788 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c9c6d706-6a6d-4320-b5d0-44a644c8cea3)
+    )
+    (pin "CRRC_OUT" passive (at 117.094 85.598 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 66581fb4-15aa-44c9-b133-048755b404dd)
     )
   )
 
-  (sheet (at 170.18 83.82) (size 39.37 16.51) (fields_autoplaced)
+  (sheet (at 145.796 76.962) (size 28.575 12.954) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 86d8b01b-5c34-47c3-904c-67d3d9a70426)
+    (property "Sheet name" "comparator" (id 0) (at 145.796 76.2504 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "comparator.kicad_sch" (id 1) (at 145.796 90.5006 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "V_IN" passive (at 145.796 85.598 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b9e42457-3488-454c-91f0-513fe888c092)
+    )
+    (pin "VREF" passive (at 145.796 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1fc90889-7161-488f-9ef9-d287e964c1c2)
+    )
+    (pin "COMP_OUT" output (at 174.371 82.423 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 9b3ec8a5-b0fb-4deb-8bc4-07d4e8203621)
+    )
+  )
+
+  (sheet (at 180.34 25.4) (size 39.37 16.51) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a7a79d2b-04f1-477d-ba1e-3ead0da72cb2)
-    (property "Sheet name" "Power Regulators" (id 0) (at 170.18 83.1084 0)
+    (property "Sheet name" "Power Regulators" (id 0) (at 180.34 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 170.18 100.9146 0)
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 180.34 42.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -42,11 +79,15 @@
     (path "/" (page "1"))
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc" (page "2"))
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2" (page "3"))
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426" (page "4"))
   )
 
   (symbol_instances
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/0f59a441-aac2-4098-8d00-e38010974acc"
       (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
+    )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1aa1157d-4bd6-4969-b9fb-c0b119211af2"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/57b1cafd-58e2-47d3-b840-730523ad81f3"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
@@ -66,11 +107,23 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/be760ee8-b8e2-4fce-815d-a09c109067fe"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/cea002a4-2d4e-4eb1-abfb-142158fc8b9d"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/d2c48699-040d-4a21-a5e0-4cf96efacb51"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/f52ef7d1-297a-4568-9461-772fe93412e2"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1c1e93c8-4588-40f4-bfc3-97272164156b"
+      (reference "C?") (unit 1) (value "2.2uF") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/352e1d1f-d8c0-4df3-82c0-73f9fc548b81"
       (reference "C?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/36f0c0d0-5fbc-41c5-b480-ee52e9c49a15"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/47bec3f2-2465-4aeb-9885-7c5ce317b7e4"
       (reference "C?") (unit 1) (value "10uF") (footprint "")
@@ -123,6 +176,9 @@
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/cb83f0da-b61c-410a-ade6-20d9d6cfa25e"
       (reference "D?") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
+      (reference "IC?") (unit 1) (value "TLV3501AIDBVTG4") (footprint "SOT95P280X145-6N")
+    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/2a7929ff-9f40-4bd1-bcfb-e606c3c4db50"
       (reference "R?") (unit 1) (value "10k") (footprint "")
     )
@@ -132,6 +188,9 @@
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/355eb33b-a5b9-4f3d-ac06-a25dd984ce3d"
       (reference "R?") (unit 1) (value "12.7k") (footprint "")
     )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/360a8f93-7c90-432a-b456-b7959e8c8583"
+      (reference "R?") (unit 1) (value "~") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/43a8e6ec-b394-4d3f-8cb4-c9eccd98a185"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
@@ -140,6 +199,9 @@
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/59fbb484-d156-47af-8542-9f0fbf50742e"
       (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/61b42055-9297-49b1-ae5e-21451e411d29"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9b646f2f-527d-40aa-802c-6f5e73d270f5"
       (reference "R?") (unit 1) (value "~") (footprint "")
