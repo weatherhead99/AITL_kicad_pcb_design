@@ -14,50 +14,82 @@
   )
 
 
-  (wire (pts (xy 117.094 85.598) (xy 145.796 85.598))
+  (wire (pts (xy 140.589 94.869) (xy 147.447 94.869))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0167924c-5337-42ab-95df-faf3ff4d8a7f)
+  )
+  (wire (pts (xy 137.287 70.485) (xy 140.589 70.485))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2362d062-ac15-47da-9cd5-524e51f69ff6)
+  )
+  (wire (pts (xy 140.589 70.485) (xy 140.589 94.869))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 23ea9191-e506-49c0-a014-0e563565e4d0)
+  )
+  (wire (pts (xy 118.745 101.727) (xy 147.447 101.727))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b178cde1-4b28-4b2c-be8b-dee761b3b566)
   )
 
-  (sheet (at 94.234 76.708) (size 22.86 14.224) (fields_autoplaced)
+  (sheet (at 114.427 62.357) (size 22.86 11.684) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5d423df9-0691-4d6c-a6f8-df6ce27066a8)
+    (property "Sheet name" "threshold_setting" (id 0) (at 114.427 61.6454 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "threshold.kicad_sch" (id 1) (at 114.427 74.6256 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "SPI" bidirectional (at 114.427 67.945 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e1d80ab2-dcdc-4039-888d-f28c3e521297)
+    )
+    (pin "VREF" passive (at 137.287 70.485 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2bcd8bff-0690-4dca-b4c6-e4c2737b7359)
+    )
+  )
+
+  (sheet (at 95.885 92.837) (size 22.86 14.224) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc)
-    (property "Sheet name" "detector_frontend" (id 0) (at 94.234 75.9964 0)
+    (property "Sheet name" "detector_frontend" (id 0) (at 95.885 92.1254 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "frontend.kicad_sch" (id 1) (at 94.234 91.5166 0)
+    (property "Sheet file" "frontend.kicad_sch" (id 1) (at 95.885 107.6456 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "VBIAS" passive (at 94.234 81.788 180)
+    (pin "VBIAS" passive (at 95.885 97.917 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c9c6d706-6a6d-4320-b5d0-44a644c8cea3)
     )
-    (pin "CRRC_OUT" passive (at 117.094 85.598 0)
+    (pin "CRRC_OUT" passive (at 118.745 101.727 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 66581fb4-15aa-44c9-b133-048755b404dd)
     )
   )
 
-  (sheet (at 145.796 76.962) (size 28.575 12.954) (fields_autoplaced)
+  (sheet (at 147.447 93.091) (size 28.575 12.954) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 86d8b01b-5c34-47c3-904c-67d3d9a70426)
-    (property "Sheet name" "comparator" (id 0) (at 145.796 76.2504 0)
+    (property "Sheet name" "comparator" (id 0) (at 147.447 92.3794 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "comparator.kicad_sch" (id 1) (at 145.796 90.5006 0)
+    (property "Sheet file" "comparator.kicad_sch" (id 1) (at 147.447 106.6296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "V_IN" passive (at 145.796 85.598 180)
+    (pin "V_IN" passive (at 147.447 101.727 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b9e42457-3488-454c-91f0-513fe888c092)
     )
-    (pin "VREF" passive (at 145.796 78.74 180)
+    (pin "VREF" passive (at 147.447 94.869 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 1fc90889-7161-488f-9ef9-d287e964c1c2)
     )
-    (pin "COMP_OUT" output (at 174.371 82.423 0)
+    (pin "COMP_OUT" output (at 176.022 98.552 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9b3ec8a5-b0fb-4deb-8bc4-07d4e8203621)
     )
@@ -80,11 +112,15 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc" (page "2"))
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2" (page "3"))
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426" (page "4"))
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8" (page "5"))
   )
 
   (symbol_instances
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/0f59a441-aac2-4098-8d00-e38010974acc"
       (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/14ca9c5b-ee55-4068-bbdc-0f4bbaf8a02f"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1aa1157d-4bd6-4969-b9fb-c0b119211af2"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
@@ -97,6 +133,15 @@
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/7679be59-26dc-4454-b2da-eed77ae8ca61"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/800bec5a-5357-4d04-8e91-1be683a70ca2"
+      (reference "#PWR?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/86c8c5b0-6cb8-4805-8a1f-2a3559b19bc2"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/912e3c71-4816-4738-80f3-2d472a2a566a"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9655ba35-47d3-4169-b523-4be8b3cae6cb"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
@@ -119,6 +164,12 @@
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1c1e93c8-4588-40f4-bfc3-97272164156b"
       (reference "C?") (unit 1) (value "2.2uF") (footprint "")
     )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/1c787f45-6ab4-410c-8c83-f15168cb7b0a"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/2585effe-462b-4cb2-9085-41c6b8165527"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/352e1d1f-d8c0-4df3-82c0-73f9fc548b81"
       (reference "C?") (unit 1) (value "~") (footprint "")
     )
@@ -130,6 +181,9 @@
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/4b8fbe85-76b0-4124-a5a3-59a8051e7609"
       (reference "C?") (unit 1) (value "10nF") (footprint "")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/4c8c9d10-0592-4577-9dfa-2a99d989669b"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/64d6d08c-f5e1-413e-9e3e-c0a6aeb2fc5f"
       (reference "C?") (unit 1) (value "C") (footprint "")
@@ -176,8 +230,14 @@
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/cb83f0da-b61c-410a-ade6-20d9d6cfa25e"
       (reference "D?") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
+      (reference "IC?") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "SOP50P490X110-10N")
+    )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
       (reference "IC?") (unit 1) (value "TLV3501AIDBVTG4") (footprint "SOT95P280X145-6N")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/186fe6f1-8e1f-4ed0-94da-2735e4d5402a"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/2a7929ff-9f40-4bd1-bcfb-e606c3c4db50"
       (reference "R?") (unit 1) (value "10k") (footprint "")

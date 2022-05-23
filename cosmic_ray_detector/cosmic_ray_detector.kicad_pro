@@ -332,6 +332,10 @@
     [
       "86d8b01b-5c34-47c3-904c-67d3d9a70426",
       "comparator"
+    ],
+    [
+      "5d423df9-0691-4d6c-a6f8-df6ce27066a8",
+      "threshold_setting"
     ]
   ],
   "text_variables": {}
