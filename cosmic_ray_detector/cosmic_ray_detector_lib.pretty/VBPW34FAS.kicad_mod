@@ -34,7 +34,7 @@
   (fp_line (start 2.2 1.95) (end -2.2 1.95) (layer "F.Fab") (width 0.2) (tstamp c8ce7d0f-bd8a-416c-9bb9-339f4090a830))
   (pad "1" smd rect (at -3.575 0) (size 1.75 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2bf34b7c-94ca-4ac8-94c5-6312536f342f))
   (pad "2" smd rect (at 3.575 0) (size 1.75 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 61e795c9-5bb5-48b3-b7a0-cb64f04c7adc))
-  (model "/home/w/weatherill/Documents/AITL_pcb_design_exampe/parts/VBPW34FAS/VBPW34S--3DModel-STEP-56544.STEP"
+  (model "${KIPRJMOD}/../parts/VBPW34FAS/VBPW34S--3DModel-STEP-56544.STEP"
     (offset (xyz 0 0 0.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
