@@ -831,10 +831,24 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid ca0d11de-b550-4221-932e-c9e1ecb3342a)
   )
+  (text "NOTE: important nets should have labels,\nso you can find them in the PCB easily\nand remember what they are!\n\nLabels are inherited from hierarchical pins\nif not overridden"
+    (at 40.513 116.586 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f8c73e15-21c8-436b-948f-2d15adb7014d)
+  )
   (text "NOTE: Always de-couple your chips power supply,\nideally according to manufacturer recommendation,\nbut in general with 0.1uF and/or 10uF in parallel\n"
     (at 33.02 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fc306fc6-49a1-4c85-8d63-1305b42cd828)
+  )
+
+  (label "CSA_IN" (at 77.724 102.87 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 384e6000-1dbb-4c4d-a8cf-6952b28c2f42)
+  )
+  (label "CSA_FB" (at 156.718 105.41 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b27dab35-20a7-48c9-a79a-98f23b39c87e)
   )
 
   (hierarchical_label "VBIAS" (shape passive) (at 30.48 48.26 180)
