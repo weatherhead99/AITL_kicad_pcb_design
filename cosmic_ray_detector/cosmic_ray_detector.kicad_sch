@@ -1374,7 +1374,7 @@
       (reference "J1") (unit 1) (value "MOLEX micro-fit 43045-0210") (footprint "cosmic_ray_detector_lib:4304502_09")
     )
     (path "/24fd848e-66f1-47e7-9f72-61ad17d16c83"
-      (reference "J2") (unit 1) (value "5 pin pin header") (footprint "")
+      (reference "J2") (unit 1) (value "5 pin pin header") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical")
     )
     (path "/e932b46b-09fd-485b-a76e-a38053182e96"
       (reference "J3") (unit 1) (value "Black Banana") (footprint "cosmic_ray_detector_lib:242432")
@@ -1389,10 +1389,10 @@
       (reference "J6") (unit 1) (value "BNC") (footprint "cosmic_ray_detector_lib:MOLEX_731375003")
     )
     (path "/653d8cf7-5060-4d1c-a3ef-efc2a95aab2c"
-      (reference "L1") (unit 1) (value "L") (footprint "")
+      (reference "L1") (unit 1) (value "L") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
     (path "/807210a2-94ea-4fa7-a24a-bb51a31fdaf1"
-      (reference "L2") (unit 1) (value "L") (footprint "")
+      (reference "L2") (unit 1) (value "L") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
     (path "/eedc1b2f-2d2e-4d64-b214-9261efa4eeff"
       (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1455,7 +1455,7 @@
       (reference "U4") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
-      (reference "U5") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
+      (reference "U5") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "SOP50P490X110-10N")
     )
   )
 )
