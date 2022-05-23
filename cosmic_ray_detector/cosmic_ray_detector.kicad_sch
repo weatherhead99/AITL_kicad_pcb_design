@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "AITL Simple Cosmic Ray Detector")
+    (company "University of Oxford")
+    (comment 1 "design by: Dan Weatherill")
+  )
+
   (lib_symbols
   )
 
