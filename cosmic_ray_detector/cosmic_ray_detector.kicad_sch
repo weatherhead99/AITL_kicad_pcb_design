@@ -6,8 +6,6 @@
 
   (title_block
     (title "AITL Simple Cosmic Ray Detector")
-    (company "University of Oxford")
-    (comment 1 "design by: Dan Weatherill")
   )
 
   (lib_symbols
@@ -545,6 +543,7 @@
     )
   )
 
+
   (junction (at 101.6508 177.546) (diameter 0) (color 0 0 0 0)
     (uuid 08703e35-dfb8-40e9-b210-769825bad64f)
   )
@@ -612,10 +611,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 23ea9191-e506-49c0-a014-0e563565e4d0)
   )
-  (wire (pts (xy 95.25 96.012) (xy 104.775 96.012))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 31e48118-cd86-4da5-894a-01edbf1bb09b)
-  )
   (wire (pts (xy 124.0536 173.0756) (xy 115.824 173.0756))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3525ebc1-8c6c-4a12-ab8d-c8dcb9bdeeeb)
@@ -682,10 +677,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b13a6eb8-6116-421b-b157-5a1eefd69a17)
   )
-  (wire (pts (xy 127.635 101.219) (xy 156.337 101.219))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b178cde1-4b28-4b2c-be8b-dee761b3b566)
-  )
   (wire (pts (xy 41.021 96.012) (xy 66.929 96.012))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b21a65ec-fcf7-430f-8450-3862c3b0396f)
@@ -724,6 +715,10 @@
     (at 100.33 157.607 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a20f6ea-179b-40cf-92b7-a4094cd7c3da)
+  )
+  (text "PUT YOUR DETECTOR FRONTEND SHEET HERE!" (at 102.87 96.52 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
+    (uuid 24a3b35c-ecb5-40c0-bdd4-76806976fe07)
   )
   (text "NOTE: Each block here is a \"sheet\"\n- you can right click and click \"enter sheet\"\nto see the components inside.\n\nWe keep the top level sheet just for connecting\nthe signals between sheets, and connectors off\nboard and the like.\n\nNormal schematic net labels do not \"travel\" outside\ntheir own sheet. This allows re-use of common names\nfor nets in different sheets. \n\nThere are three types of label that travel \"between\" sheets:\n\n1) hierarchical labels\n2) global labels\n3) power symbols (you can treat as implicit global label)\n\nThis is a type of schematic called \"hierarchical\ndesign\". Opinion is divided on whether it's\nbetter than \"flat\" design. \n\nPersonally I think it helps to keep the \noverall schematic well organised.\n\nIt is common nowadays not just in KiCad but\nother programs (e.g. Altium Designer) as well"
     (at 224.155 69.596 0)
@@ -1150,26 +1145,6 @@
     )
   )
 
-  (sheet (at 104.775 92.329) (size 22.86 14.224) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc)
-    (property "Sheet name" "detector_frontend" (id 0) (at 104.775 91.6174 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "frontend.kicad_sch" (id 1) (at 104.775 107.1376 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "VBIAS" passive (at 104.775 96.012 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c9c6d706-6a6d-4320-b5d0-44a644c8cea3)
-    )
-    (pin "CRRC_OUT" passive (at 127.635 101.219 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 66581fb4-15aa-44c9-b133-048755b404dd)
-    )
-  )
-
   (sheet (at 156.337 92.583) (size 28.575 12.954) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1216,7 +1191,6 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc" (page "2"))
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2" (page "3"))
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426" (page "4"))
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8" (page "5"))
@@ -1250,125 +1224,86 @@
     (path "/e59a4194-901e-45b8-8869-ffda65bf9d5f"
       (reference "#PWR06") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/be760ee8-b8e2-4fce-815d-a09c109067fe"
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/591052a0-f27a-4a65-bab8-3c391145f152"
       (reference "#PWR07") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/7679be59-26dc-4454-b2da-eed77ae8ca61"
-      (reference "#PWR08") (unit 1) (value "+5VA") (footprint "")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/0f59a441-aac2-4098-8d00-e38010974acc"
-      (reference "#PWR09") (unit 1) (value "-5VA") (footprint "")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/bc0e4a6e-3840-474e-ac2c-78c98c270528"
-      (reference "#PWR010") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/57b1cafd-58e2-47d3-b840-730523ad81f3"
-      (reference "#PWR011") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/591052a0-f27a-4a65-bab8-3c391145f152"
-      (reference "#PWR012") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9655ba35-47d3-4169-b523-4be8b3cae6cb"
-      (reference "#PWR013") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR08") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/756a1507-197a-4c44-94ef-e8e9a1eef76a"
-      (reference "#PWR014") (unit 1) (value "-5VA") (footprint "")
+      (reference "#PWR09") (unit 1) (value "-5VA") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/f52ef7d1-297a-4568-9461-772fe93412e2"
-      (reference "#PWR015") (unit 1) (value "+5VA") (footprint "")
+      (reference "#PWR010") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1aa1157d-4bd6-4969-b9fb-c0b119211af2"
-      (reference "#PWR016") (unit 1) (value "+5VA") (footprint "")
+      (reference "#PWR011") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/d2c48699-040d-4a21-a5e0-4cf96efacb51"
-      (reference "#PWR017") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR012") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/cea002a4-2d4e-4eb1-abfb-142158fc8b9d"
-      (reference "#PWR018") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR013") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/800bec5a-5357-4d04-8e91-1be683a70ca2"
-      (reference "#PWR019") (unit 1) (value "~") (footprint "")
+      (reference "#PWR014") (unit 1) (value "~") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/86c8c5b0-6cb8-4805-8a1f-2a3559b19bc2"
-      (reference "#PWR020") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR015") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/14ca9c5b-ee55-4068-bbdc-0f4bbaf8a02f"
-      (reference "#PWR021") (unit 1) (value "+5VA") (footprint "")
+      (reference "#PWR016") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/912e3c71-4816-4738-80f3-2d472a2a566a"
-      (reference "#PWR022") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR017") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/3d8e339b-516b-4bc5-bf95-d9eb4af1df8f"
       (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/b8ce0ab1-12e9-4729-8cf0-b6c9aa72ce7b"
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/e70e6158-5df2-4b28-bcf8-431998879b2d"
       (reference "C2") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9342db19-454a-448f-a9b0-e083f29fdbc6"
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/47bec3f2-2465-4aeb-9885-7c5ce317b7e4"
       (reference "C3") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/64d6d08c-f5e1-413e-9e3e-c0a6aeb2fc5f"
-      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/c88f5eb6-4f37-4df1-b35c-8521901901d5"
-      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/bb7e893d-a1cb-4236-b548-aee7bb40a8be"
-      (reference "C6") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/352e1d1f-d8c0-4df3-82c0-73f9fc548b81"
-      (reference "C7") (unit 1) (value "~") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/ade73c7f-6d57-424e-b3c9-b2d23c54b285"
-      (reference "C8") (unit 1) (value "~") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/e70e6158-5df2-4b28-bcf8-431998879b2d"
-      (reference "C9") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
-    )
-    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/47bec3f2-2465-4aeb-9885-7c5ce317b7e4"
-      (reference "C10") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
-    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/79ed462d-78ce-428f-b78d-4ae19b33c4e8"
-      (reference "C11") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C4") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b873aaae-3580-4bc9-8b5a-0df5ac47c43f"
-      (reference "C12") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C5") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/d84d3b19-8918-4b4c-899a-aa4a8a4bb9b5"
-      (reference "C13") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C6") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/71923108-ae47-4f0d-8f85-d0c61523d4ff"
-      (reference "C14") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C7") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b0a82baf-ff23-42e4-95ab-ccde60e13fd7"
-      (reference "C15") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
+      (reference "C8") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/4b8fbe85-76b0-4124-a5a3-59a8051e7609"
-      (reference "C16") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C9") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/36f0c0d0-5fbc-41c5-b480-ee52e9c49a15"
-      (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1c1e93c8-4588-40f4-bfc3-97272164156b"
-      (reference "C18") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C11") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/1c787f45-6ab4-410c-8c83-f15168cb7b0a"
-      (reference "C19") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C12") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/4c8c9d10-0592-4577-9dfa-2a99d989669b"
-      (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C13") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/2585effe-462b-4cb2-9085-41c6b8165527"
-      (reference "C21") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/5ce095f3-e38c-45ce-8672-a4bac6e6c0b6"
-      (reference "D1") (unit 1) (value "VBPW34FAS") (footprint "cosmic_ray_detector_lib:VBPW34FAS")
+      (reference "C14") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/cb83f0da-b61c-410a-ade6-20d9d6cfa25e"
-      (reference "D2") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D1") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9bea8bdd-b087-4fac-a78f-b3ebb429045e"
-      (reference "D3") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D2") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/6eef247d-24ee-4250-a3f8-9d4a08136ccb"
       (reference "J1") (unit 1) (value "MOLEX micro-fit 43045-0210") (footprint "cosmic_ray_detector_lib:4304502_09")
@@ -1397,65 +1332,38 @@
     (path "/eedc1b2f-2d2e-4d64-b214-9261efa4eeff"
       (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/43a8e6ec-b394-4d3f-8cb4-c9eccd98a185"
-      (reference "R2") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9b646f2f-527d-40aa-802c-6f5e73d270f5"
-      (reference "R3") (unit 1) (value "~") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/33970c63-f931-486c-9740-29ed26af6d58"
-      (reference "R4") (unit 1) (value "~") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/53e58d3c-d339-4677-acde-ecac96daf7c3"
-      (reference "R5") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R2") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/59fbb484-d156-47af-8542-9f0fbf50742e"
-      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/355eb33b-a5b9-4f3d-ac06-a25dd984ce3d"
-      (reference "R7") (unit 1) (value "12.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "12.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/2a7929ff-9f40-4bd1-bcfb-e606c3c4db50"
-      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/360a8f93-7c90-432a-b456-b7959e8c8583"
-      (reference "R9") (unit 1) (value "~") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "~") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/61b42055-9297-49b1-ae5e-21451e411d29"
-      (reference "R10") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R7") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/186fe6f1-8e1f-4ed0-94da-2735e4d5402a"
-      (reference "R11") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/be00a754-9f8c-4e22-a66d-0db29b354b09"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "cosmic_ray_detector_lib:harwin_tp_SMD")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/ce5db908-5941-416d-acc1-26165f8248dc"
-      (reference "TP2") (unit 1) (value "~") (footprint "cosmic_ray_detector_lib:harwin_tp_SMD")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/f305f001-1814-4ded-a5ce-fd76e6b780b5"
-      (reference "TP3") (unit 1) (value "~") (footprint "cosmic_ray_detector_lib:harwin_tp_SMD")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/dc6a577a-adb1-40f6-969b-35ca6dfaa8da"
-      (reference "U1") (unit 1) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/218ce5f0-e554-4cad-a689-3149b55cc4f3"
-      (reference "U1") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/dec4a96a-263a-4638-9916-5ff8f1adeca2"
-      (reference "U1") (unit 3) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+      (reference "R8") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/afc5c3f9-3c42-4bce-8ae8-32d1ae268c1e"
-      (reference "U2") (unit 1) (value "TPS7A30") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+      (reference "U1") (unit 1) (value "TPS7A30") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b2403965-d978-49c7-a324-3bd38b59deb0"
-      (reference "U3") (unit 1) (value "TPS7A49") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+      (reference "U2") (unit 1) (value "TPS7A49") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
-      (reference "U4") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
+      (reference "U3") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
-      (reference "U5") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
+      (reference "U4") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
     )
   )
 )
