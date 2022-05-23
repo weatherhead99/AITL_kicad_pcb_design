@@ -797,7 +797,7 @@
     (in_bom yes) (on_board yes)
     (uuid 24fd848e-66f1-47e7-9f72-61ad17d16c83)
     (property "Reference" "J2" (id 0) (at 63.754 37.719 0))
-    (property "Value" "5 pin pin header" (id 1) (at 61.849 39.878 0))
+    (property "Value" "" (id 1) (at 61.849 39.878 0))
     (property "Footprint" "" (id 2) (at 63.119 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -817,7 +817,7 @@
     (property "Reference" "C1" (id 0) (at 84.836 101.9809 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (id 1) (at 84.836 104.5209 0)
+    (property "Value" "" (id 1) (at 84.836 104.5209 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 80.0608 99.441 0)
@@ -836,13 +836,25 @@
     (property "Reference" "J6" (id 0) (at 218.8464 97.0671 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BNC" (id 1) (at 218.8464 99.6071 0)
+    (property "Value" "" (id 1) (at 218.8464 99.6071 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 215.9 98.044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 215.9 98.044 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "6252H7-NPP3G-50" (id 4) (at 215.9 98.044 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Amphenol" (id 5) (at 215.9 98.044 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "farnell" "" (id 6) (at 215.9 98.044 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Farnell" "1076289" (id 7) (at 215.9 98.044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4a7d2f4-63b6-4cf4-b1ec-e6fb2321764f))
@@ -869,7 +881,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 653d8cf7-5060-4d1c-a3ef-efc2a95aab2c)
     (property "Reference" "L1" (id 0) (at 70.739 89.662 90))
-    (property "Value" "L" (id 1) (at 70.739 92.202 90))
+    (property "Value" "" (id 1) (at 70.739 92.202 90))
     (property "Footprint" "" (id 2) (at 70.739 96.012 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -883,7 +895,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.7524 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6546e3f4-8b9a-4079-afa1-49985583761b)
-    (property "Reference" "#FLG0102" (id 0) (at 101.7524 167.005 0)
+    (property "Reference" "#FLG02" (id 0) (at 101.7524 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "" (id 1) (at 101.6508 165.5572 0))
@@ -911,6 +923,15 @@
     (property "Datasheet" "~" (id 3) (at 128.905 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Farnell" "1698982" (id 4) (at 128.905 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "24.243.1" (id 5) (at 128.905 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Multicomp" (id 6) (at 128.905 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 482ac276-b945-45de-92d3-4e31e81b9e05))
   )
 
@@ -932,7 +953,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 115.824 173.0756 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 75017097-ad81-460e-8e63-829f55bbcd5b)
-    (property "Reference" "#FLG0103" (id 0) (at 115.824 171.1706 0)
+    (property "Reference" "#FLG03" (id 0) (at 115.824 171.1706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 120.9548 170.942 0))
@@ -949,7 +970,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 807210a2-94ea-4fa7-a24a-bb51a31fdaf1)
     (property "Reference" "L2" (id 0) (at 91.44 89.662 90))
-    (property "Value" "L" (id 1) (at 91.44 92.202 90))
+    (property "Value" "" (id 1) (at 91.44 92.202 90))
     (property "Footprint" "" (id 2) (at 91.44 96.012 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -966,13 +987,22 @@
     (property "Reference" "J5" (id 0) (at 131.0132 172.9486 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Green Banana" (id 1) (at 136.9822 173.2534 0)
+    (property "Value" "" (id 1) (at 136.9822 173.2534 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 129.1336 173.0756 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 129.1336 173.0756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Farnell" "1698986" (id 4) (at 129.1336 173.0756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "24.243.4" (id 5) (at 129.1336 173.0756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Multicomp" (id 6) (at 129.1336 173.0756 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e72bf671-7ea7-4403-b54f-85cbadd5bfb1))
@@ -1013,7 +1043,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6508 177.546 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b1a4193c-548d-443c-acb7-7170ba401ff2)
-    (property "Reference" "#FLG0101" (id 0) (at 101.6508 175.641 0)
+    (property "Reference" "#FLG01" (id 0) (at 101.6508 175.641 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 101.6 174.3456 0))
@@ -1048,13 +1078,22 @@
     (property "Reference" "J3" (id 0) (at 130.7592 177.4952 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Black Banana" (id 1) (at 136.8552 177.5968 0)
+    (property "Value" "" (id 1) (at 136.8552 177.5968 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 128.778 177.546 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.778 177.546 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Farnell" "1698983" (id 4) (at 128.778 177.546 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "24.243.2" (id 5) (at 128.778 177.546 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Multicomp" (id 6) (at 128.778 177.546 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bc6ebe3c-7527-4913-8271-e3889bdf64f1))
@@ -1064,7 +1103,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eedc1b2f-2d2e-4d64-b214-9261efa4eeff)
     (property "Reference" "R1" (id 0) (at 201.422 92.202 90))
-    (property "Value" "R_US" (id 1) (at 201.422 94.742 90))
+    (property "Value" "" (id 1) (at 201.422 94.742 90))
     (property "Footprint" "" (id 2) (at 201.676 97.028 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1185,13 +1224,13 @@
 
   (symbol_instances
     (path "/b1a4193c-548d-443c-acb7-7170ba401ff2"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/6546e3f4-8b9a-4079-afa1-49985583761b"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/75017097-ad81-460e-8e63-829f55bbcd5b"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/0ed18a07-a5f9-4517-b9af-dbdd973af743"
       (reference "#PWR01") (unit 1) (value "GNDA") (footprint "")
@@ -1226,53 +1265,53 @@
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/57b1cafd-58e2-47d3-b840-730523ad81f3"
       (reference "#PWR011") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9655ba35-47d3-4169-b523-4be8b3cae6cb"
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/591052a0-f27a-4a65-bab8-3c391145f152"
       (reference "#PWR012") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9655ba35-47d3-4169-b523-4be8b3cae6cb"
+      (reference "#PWR013") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/756a1507-197a-4c44-94ef-e8e9a1eef76a"
-      (reference "#PWR013") (unit 1) (value "-5VA") (footprint "")
+      (reference "#PWR014") (unit 1) (value "-5VA") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/f52ef7d1-297a-4568-9461-772fe93412e2"
-      (reference "#PWR014") (unit 1) (value "+5VA") (footprint "")
-    )
-    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1aa1157d-4bd6-4969-b9fb-c0b119211af2"
       (reference "#PWR015") (unit 1) (value "+5VA") (footprint "")
     )
-    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/d2c48699-040d-4a21-a5e0-4cf96efacb51"
-      (reference "#PWR016") (unit 1) (value "GNDA") (footprint "")
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1aa1157d-4bd6-4969-b9fb-c0b119211af2"
+      (reference "#PWR016") (unit 1) (value "+5VA") (footprint "")
     )
-    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/cea002a4-2d4e-4eb1-abfb-142158fc8b9d"
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/d2c48699-040d-4a21-a5e0-4cf96efacb51"
       (reference "#PWR017") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/cea002a4-2d4e-4eb1-abfb-142158fc8b9d"
+      (reference "#PWR018") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/800bec5a-5357-4d04-8e91-1be683a70ca2"
-      (reference "#PWR018") (unit 1) (value "~") (footprint "")
+      (reference "#PWR019") (unit 1) (value "~") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/86c8c5b0-6cb8-4805-8a1f-2a3559b19bc2"
-      (reference "#PWR019") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR020") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/14ca9c5b-ee55-4068-bbdc-0f4bbaf8a02f"
-      (reference "#PWR020") (unit 1) (value "+5VA") (footprint "")
+      (reference "#PWR021") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/912e3c71-4816-4738-80f3-2d472a2a566a"
-      (reference "#PWR021") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/591052a0-f27a-4a65-bab8-3c391145f152"
-      (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR022") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/3d8e339b-516b-4bc5-bf95-d9eb4af1df8f"
       (reference "C1") (unit 1) (value "C") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/b8ce0ab1-12e9-4729-8cf0-b6c9aa72ce7b"
-      (reference "C2") (unit 1) (value "C_Polarized_US") (footprint "")
+      (reference "C2") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/9342db19-454a-448f-a9b0-e083f29fdbc6"
-      (reference "C3") (unit 1) (value "~") (footprint "")
+      (reference "C3") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/64d6d08c-f5e1-413e-9e3e-c0a6aeb2fc5f"
-      (reference "C4") (unit 1) (value "C") (footprint "")
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/c88f5eb6-4f37-4df1-b35c-8521901901d5"
-      (reference "C5") (unit 1) (value "~") (footprint "")
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/bb7e893d-a1cb-4236-b548-aee7bb40a8be"
       (reference "C6") (unit 1) (value "C") (footprint "")
@@ -1284,31 +1323,31 @@
       (reference "C8") (unit 1) (value "~") (footprint "")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/e70e6158-5df2-4b28-bcf8-431998879b2d"
-      (reference "C9") (unit 1) (value "10uF") (footprint "")
+      (reference "C9") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/47bec3f2-2465-4aeb-9885-7c5ce317b7e4"
-      (reference "C10") (unit 1) (value "10uF") (footprint "")
+      (reference "C10") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/79ed462d-78ce-428f-b78d-4ae19b33c4e8"
-      (reference "C11") (unit 1) (value "22nF") (footprint "")
+      (reference "C11") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b873aaae-3580-4bc9-8b5a-0df5ac47c43f"
-      (reference "C12") (unit 1) (value "22nF") (footprint "")
+      (reference "C12") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/d84d3b19-8918-4b4c-899a-aa4a8a4bb9b5"
-      (reference "C13") (unit 1) (value "10nF") (footprint "")
+      (reference "C13") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/71923108-ae47-4f0d-8f85-d0c61523d4ff"
-      (reference "C14") (unit 1) (value "10nF") (footprint "")
+      (reference "C14") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b0a82baf-ff23-42e4-95ab-ccde60e13fd7"
-      (reference "C15") (unit 1) (value "10uF") (footprint "")
+      (reference "C15") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/4b8fbe85-76b0-4124-a5a3-59a8051e7609"
-      (reference "C16") (unit 1) (value "10nF") (footprint "")
+      (reference "C16") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/36f0c0d0-5fbc-41c5-b480-ee52e9c49a15"
-      (reference "C17") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/1c1e93c8-4588-40f4-bfc3-97272164156b"
       (reference "C18") (unit 1) (value "2.2uF") (footprint "")
@@ -1317,10 +1356,10 @@
       (reference "C19") (unit 1) (value "1uF") (footprint "")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/4c8c9d10-0592-4577-9dfa-2a99d989669b"
-      (reference "C20") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/2585effe-462b-4cb2-9085-41c6b8165527"
-      (reference "C21") (unit 1) (value "10uF") (footprint "")
+      (reference "C21") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/5ce095f3-e38c-45ce-8672-a4bac6e6c0b6"
       (reference "D1") (unit 1) (value "VBPW34FAS") (footprint "cosmic_ray_detector_lib:VBPW34FAS")
@@ -1331,29 +1370,23 @@
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/9bea8bdd-b087-4fac-a78f-b3ebb429045e"
       (reference "D3") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
-      (reference "IC1") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
-    )
-    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
-      (reference "IC2") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
-    )
     (path "/6eef247d-24ee-4250-a3f8-9d4a08136ccb"
-      (reference "J1") (unit 1) (value "MOLEX micro-fit 43045-0210") (footprint "")
+      (reference "J1") (unit 1) (value "MOLEX micro-fit 43045-0210") (footprint "cosmic_ray_detector_lib:4304502_09")
     )
     (path "/24fd848e-66f1-47e7-9f72-61ad17d16c83"
       (reference "J2") (unit 1) (value "5 pin pin header") (footprint "")
     )
     (path "/e932b46b-09fd-485b-a76e-a38053182e96"
-      (reference "J3") (unit 1) (value "Black Banana") (footprint "")
+      (reference "J3") (unit 1) (value "Black Banana") (footprint "cosmic_ray_detector_lib:242432")
     )
     (path "/6b8be922-d73c-45d0-b53e-7f49e431cf3e"
-      (reference "J4") (unit 1) (value "Red Banana") (footprint "")
+      (reference "J4") (unit 1) (value "Red Banana") (footprint "cosmic_ray_detector_lib:242431")
     )
     (path "/8a1a30eb-8ca9-4ee4-bb0c-b3bb6730b559"
-      (reference "J5") (unit 1) (value "Green Banana") (footprint "")
+      (reference "J5") (unit 1) (value "Green Banana") (footprint "cosmic_ray_detector_lib:242434")
     )
     (path "/46df966b-b6d3-4dbc-b015-5641b3a5eed5"
-      (reference "J6") (unit 1) (value "BNC") (footprint "")
+      (reference "J6") (unit 1) (value "BNC") (footprint "cosmic_ray_detector_lib:MOLEX_731375003")
     )
     (path "/653d8cf7-5060-4d1c-a3ef-efc2a95aab2c"
       (reference "L1") (unit 1) (value "L") (footprint "")
@@ -1404,19 +1437,25 @@
       (reference "TP3") (unit 1) (value "~") (footprint "")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/dc6a577a-adb1-40f6-969b-35ca6dfaa8da"
-      (reference "U1") (unit 1) (value "TL072") (footprint "")
+      (reference "U1") (unit 1) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/218ce5f0-e554-4cad-a689-3149b55cc4f3"
-      (reference "U1") (unit 2) (value "TL072") (footprint "")
+      (reference "U1") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/dec4a96a-263a-4638-9916-5ff8f1adeca2"
-      (reference "U1") (unit 3) (value "TL072") (footprint "")
+      (reference "U1") (unit 3) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/afc5c3f9-3c42-4bce-8ae8-32d1ae268c1e"
       (reference "U2") (unit 1) (value "TPS7A30") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/b2403965-d978-49c7-a324-3bd38b59deb0"
       (reference "U3") (unit 1) (value "TPS7A49") (footprint "cosmic_ray_detector_lib:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias")
+    )
+    (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/af3aa5f2-62c8-4412-beae-b6c8e5ade3ec"
+      (reference "U4") (unit 1) (value "TLV3501AIDBVTG4") (footprint "cosmic_ray_detector_lib:SOT95P280X145-6N")
+    )
+    (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/65278bfc-14d1-478b-8143-85b3c07e62c3"
+      (reference "U5") (unit 1) (value "AD5270BRMZ-100-RL7") (footprint "cosmic_ray_detector_lib:SOP50P490X110-10N")
     )
   )
 )
