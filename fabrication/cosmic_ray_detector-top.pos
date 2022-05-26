@@ -1,0 +1,58 @@
+### Module positions - created on Thu 26 May 2022 20:08:54 BST ###
+### Printed by Pcbnew version 6.0.4-6f826c9f35~116~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                         Package                                                  PosX       PosY       Rot  Side
+C1        C                           C_1210_3225Metric                                     43.9240    38.4450   90.0000  top
+C2        10uF                        CP_EIA-3216-12_Kemet-S                                51.4240    30.2700   90.0000  top
+C3        10uF                        CP_EIA-3216-12_Kemet-S                                47.1740    18.4200   90.0000  top
+C4        0.1uF                       C_0402_1005Metric                                     53.9240    27.9200   90.0000  top
+C5        0.1uF                       C_0402_1005Metric                                     49.4240    19.4000   90.0000  top
+C6        C                           C_0402_1005Metric                                     46.6740    25.1700   90.0000  top
+C7        ~                           C_0402_1005Metric                                     48.5990    27.5550  180.0000  top
+C8        ~                           C_0402_1005Metric                                     55.6740    23.9400   90.0000  top
+C9        10uF                        MAL215375109E3                                        28.0000    25.5000  -90.0000  top
+C10       10uF                        MAL215375109E3                                        28.0000    39.4510  -90.0000  top
+C11       22nF                        C_0402_1005Metric                                     28.9240    18.6500  -90.0000  top
+C12       22nF                        C_0402_1005Metric                                     29.0000    45.5000   90.0000  top
+C13       10nF                        C_0402_1005Metric                                     39.1740    20.4200   90.0000  top
+C14       10nF                        C_0402_1005Metric                                     37.9040    45.1700  180.0000  top
+C15       10uF                        MAL215375109E3                                        36.1740    14.9200  180.0000  top
+C16       10uF                        MAL215375109E3                                        35.5000    49.5000  180.0000  top
+C17       0.1uF                       C_0402_1005Metric                                     56.0790    34.4400   90.0000  top
+C18       2.2uF                       C_0402_1005Metric                                     54.8290    34.4400   90.0000  top
+C19       1uF                         C_0402_1005Metric                                     62.9240    40.4200  180.0000  top
+C20       0.1uF                       C_0402_1005Metric                                     63.9440    44.9200  180.0000  top
+C21       10uF                        CP_EIA-3216-12_Kemet-S                                67.6740    45.6700    0.0000  top
+D1        VBPW34FAS                   VBPW34FAS                                             42.4240    32.1700  180.0000  top
+D2        12V                         D_SOD-123                                             32.5000    25.5000  -90.0000  top
+D3        12V                         D_SOD-123                                             32.0000    38.5000  -90.0000  top
+J1        MOLEX_micro-fit_43045-0210  4304502_09                                            52.6209    47.3046   90.0000  top
+J2        5_pin_pin_header            PinHeader_1x05_P1.27mm_Vertical                       76.6740    45.6900    0.0000  top
+J3        Black_Banana                242432                                                 4.6740    20.9500    0.0000  top
+J4        Red_Banana                  242431                                                 4.6740    41.5919    0.0000  top
+J5        Green_Banana                242434                                                 4.6740    31.2500    0.0000  top
+J6        BNC                         MOLEX_731375003                                       67.0940    29.5000   90.0000  top
+L1        L                           L_1008_2520Metric                                     48.1740    40.9200  180.0000  top
+L2        L                           L_1008_2520Metric                                     40.1740    38.7450  -90.0000  top
+R1        R_US                        R_0402_1005Metric                                     64.1740    29.4200    0.0000  top
+R2        R_US                        R_0402_1005Metric                                     45.4240    25.1700   90.0000  top
+R3        ~                           R_0402_1005Metric                                     46.5990    27.3150   90.0000  top
+R4        ~                           R_0402_1005Metric                                     56.9240    23.9100   90.0000  top
+R5        13k                         R_0402_1005Metric                                     37.9240    19.1700   90.0000  top
+R6        10k                         R_0402_1005Metric                                     37.9240    21.4200   90.0000  top
+R7        12.7k                       R_0402_1005Metric                                     37.9240    44.1700  180.0000  top
+R8        10k                         R_0402_1005Metric                                     38.9240    46.6600   90.0000  top
+R9        ~                           R_0402_1005Metric                                     57.8290    39.1900  -90.0000  top
+R10       R_US                        R_0402_1005Metric                                     56.0790    37.2000  -90.0000  top
+R11       R_US                        R_0402_1005Metric                                     63.4140    43.6700  180.0000  top
+TP1       TestPoint                   harwin_tp_SMD                                         39.9240    25.9200    0.0000  top
+TP2       ~                           harwin_tp_SMD                                         51.6740    18.4200  -90.0000  top
+TP3       ~                           harwin_tp_SMD                                         61.1740    24.4200    0.0000  top
+TP4       ~                           harwin_tp_SMD                                         35.4365     5.3500    0.0000  top
+U1        TL072                       SO-8_3.9x4.9mm_P1.27mm                                51.1740    23.9200    0.0000  top
+U2        TPS7A30                     MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias    33.5000    20.0000  180.0000  top
+U3        TPS7A49                     MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias    33.5700    44.4600  180.0000  top
+U4        TLV3501AIDBVTG4             SOT95P280X145-6N                                      58.9240    35.9200  -90.0000  top
+U5        AD5270BRMZ-100-RL7          SOP50P490X110-10N                                     67.6740    41.9200    0.0000  top
+## End
