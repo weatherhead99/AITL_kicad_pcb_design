@@ -1,4 +1,25 @@
+2
 1
+.ac dec 1000 100 10Meg
+4
+9
+/CRRC_FB
+V
+5
+/CRRC_FB
+V
+9
+/CSA_FB
+V
+5
+/CSA_FB
+V
+9
+.tran 10n 500u 0
+2
 1
-.ac dec 1000 10k 10m
-0
+/CRRC_FB
+V
+1
+/CSA_FB
+V
