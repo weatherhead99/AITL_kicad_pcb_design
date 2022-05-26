@@ -1,0 +1,5 @@
+(version 1)
+(rule inner_layer_hole_track
+	(layer inner)
+	(constraint hole_clearance (min 0.5mm))
+)
