@@ -306,7 +306,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 1,
+      "model_mode": 2,
       "workbook_filename": "frontend_sim.wbk"
     },
     "page_layout_descr_file": "",

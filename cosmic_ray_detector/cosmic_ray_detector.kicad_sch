@@ -1107,7 +1107,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cdc66868-9775-4509-8b9a-50a80b184c3e)
     (property "Reference" "NT1" (id 0) (at 152.654 22.479 0))
-    (property "Value" "NetTie_2" (id 1) (at 152.654 25.019 0))
+    (property "Value" "" (id 1) (at 152.654 25.019 0))
     (property "Footprint" "" (id 2) (at 152.654 27.686 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1457,7 +1457,7 @@
       (reference "L2") (unit 1) (value "L") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
     (path "/cdc66868-9775-4509-8b9a-50a80b184c3e"
-      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "")
+      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/eedc1b2f-2d2e-4d64-b214-9261efa4eeff"
       (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
