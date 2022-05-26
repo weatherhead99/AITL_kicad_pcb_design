@@ -2370,7 +2370,7 @@
       (net 9 "/comparator/V_IN") (pintype "output") (tstamp 5a1c0017-37d7-4584-95c6-a8c2e247cd81))
     (pad "8" smd roundrect (at 2.575 -1.905) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "+5VA") (pinfunction "V+") (pintype "power_in") (tstamp 59c4bc89-4a3a-4e0d-8e5d-fac8fc93652f))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/../parts/TL072_3d/TL072CDT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2825,7 +2825,7 @@
     (pts (xy 60.076 61.92) (xy 60.076 121.92))
     (height -25)
     (orientation 1)
-    (gr_text "60.0000 mm" (at 33.926 91.92 90) (layer "Dwgs.User") (tstamp 80432e63-df72-4ae1-b600-20d7393ff8ac)
+    (gr_text "60.0000 mm" (at 33.926 91.92 90) (layer "Dwgs.User") (tstamp 36ca267b-4919-41d3-9cb7-25f3e531719d)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -2835,7 +2835,7 @@
     (pts (xy 60.076 61.92) (xy 140.076 61.92))
     (height -15)
     (orientation 0)
-    (gr_text "80.0000 mm" (at 100.076 45.77) (layer "Dwgs.User") (tstamp 4265f19f-6d72-4087-b2d9-acefeb73ddba)
+    (gr_text "80.0000 mm" (at 100.076 45.77) (layer "Dwgs.User") (tstamp a8b3c8ca-13d6-4d85-bd8a-229ad0e376e7)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4740,7 +4740,6 @@
         (xy 134 71)
         (xy 134 74.25)
         (xy 121.157699 74.25)
-        (xy 121.157699 64)
       )
     )
     (filled_polygon
@@ -5503,7 +5502,6 @@
     (polygon
       (pts
         (xy 97.5 77)
-        (xy 97.499999 77.75)
         (xy 97.499999 77.75)
         (xy 94.999999 77.75)
         (xy 94.999999 80.5)
