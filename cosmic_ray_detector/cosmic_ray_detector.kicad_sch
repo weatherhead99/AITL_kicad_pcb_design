@@ -1107,8 +1107,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cdc66868-9775-4509-8b9a-50a80b184c3e)
     (property "Reference" "NT1" (id 0) (at 152.654 22.479 0))
-    (property "Value" "" (id 1) (at 152.654 25.019 0))
-    (property "Footprint" "" (id 2) (at 152.654 27.686 0)
+    (property "Value" "NetTie_2" (id 1) (at 152.654 25.019 0))
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (id 2) (at 152.654 27.686 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 152.654 27.686 0)
@@ -1406,7 +1406,7 @@
       (reference "C15") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/a7a79d2b-04f1-477d-ba1e-3ead0da72cb2/4b8fbe85-76b0-4124-a5a3-59a8051e7609"
-      (reference "C16") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C16") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
     )
     (path "/86d8b01b-5c34-47c3-904c-67d3d9a70426/36f0c0d0-5fbc-41c5-b480-ee52e9c49a15"
       (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1421,7 +1421,7 @@
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5d423df9-0691-4d6c-a6f8-df6ce27066a8/2585effe-462b-4cb2-9085-41c6b8165527"
-      (reference "C21") (unit 1) (value "10uF") (footprint "cosmic_ray_detector_lib:MAL215375109E3")
+      (reference "C21") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S")
     )
     (path "/6f9e921d-fe8f-4a5a-8c5c-cbe4afe99abc/5ce095f3-e38c-45ce-8672-a4bac6e6c0b6"
       (reference "D1") (unit 1) (value "VBPW34FAS") (footprint "cosmic_ray_detector_lib:VBPW34FAS")
