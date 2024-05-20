@@ -1,25 +1,129 @@
-2
-1
-.ac dec 1000 100 10Meg
-4
-9
-/CRRC_FB
-V
-5
-/CRRC_FB
-V
-9
-/CSA_FB
-V
-5
-/CSA_FB
-V
-9
-.tran 10n 500u 0
-2
-1
-/CRRC_FB
-V
-1
-/CSA_FB
-V
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 1000 100 10Meg",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "I(C1)",
+          "trace_type": 522
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "I(C1)",
+          "trace_type": 518
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(-5VA)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(-5VA)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/COMP_OUT)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/CSA_FB)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/CSA_FB)",
+          "trace_type": 521
+        }
+      ]
+    },
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 10n 500u 0\n",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(141, 160, 203)",
+          "signal": "I(C1)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(+5VA)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(-5VA)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/COMP_OUT)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/CRRC_FB)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/CSA_FB)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(Net-_C3-Pad2_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "signal": "V(Net-_U2--_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(252, 141, 98)",
+          "signal": "V(Net-_U3--_)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
