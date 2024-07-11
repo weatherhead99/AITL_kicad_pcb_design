@@ -59,7 +59,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|85499999|84590001|75ee5c14-aa47-41cc-96e5-2ef38eebea05|c2350791-8fec-4be3-8b55-c137e0d4720d",
+        "courtyards_overlap|85499999|94890001|72a225b7-3740-4caf-9ef5-4c660e16e7b3|c2350791-8fec-4be3-8b55-c137e0d4720d",
+        "silk_overlap|60500000|85408100|f3446ff8-2036-4572-b2f0-02b4872d248d|02bfb733-5b56-4bdc-8f27-8e94abce3979",
+        "silk_overlap|60500000|85408100|f3446ff8-2036-4572-b2f0-02b4872d248d|d3116be0-b575-4497-bc88-7e6f00598c22",
+        "silk_overlap|60500000|85590000|02bfb733-5b56-4bdc-8f27-8e94abce3979|dd0ef98c-c792-424e-ba85-7c9847cda6bc",
+        "silk_overlap|60500000|85590000|d3116be0-b575-4497-bc88-7e6f00598c22|dd0ef98c-c792-424e-ba85-7c9847cda6bc",
+        "silk_overlap|60500000|95890000|00e4239a-fa93-49b6-b8b0-014c9411b731|02bfb733-5b56-4bdc-8f27-8e94abce3979",
+        "silk_overlap|60500000|95890000|00e4239a-fa93-49b6-b8b0-014c9411b731|0fccec3b-b667-46e1-a932-ad4f7f97d340",
+        "silk_overlap|60500000|95890000|910b0bea-4926-4fdb-89d2-9ec48ffb35af|02bfb733-5b56-4bdc-8f27-8e94abce3979",
+        "silk_overlap|60500000|95890000|910b0bea-4926-4fdb-89d2-9ec48ffb35af|0fccec3b-b667-46e1-a932-ad4f7f97d340",
+        "silk_overlap|84500000|85590000|1286007e-da48-4a35-a102-a2691806d810|dd0ef98c-c792-424e-ba85-7c9847cda6bc",
+        "silk_overlap|84500000|85590000|1286007e-da48-4a35-a102-a2691806d810|f8b9f82d-0094-49b9-baab-601edf180bf7",
+        "silk_overlap|84500000|85590000|d3116be0-b575-4497-bc88-7e6f00598c22|f8b9f82d-0094-49b9-baab-601edf180bf7",
+        "silk_overlap|84500000|95890000|00e4239a-fa93-49b6-b8b0-014c9411b731|1286007e-da48-4a35-a102-a2691806d810",
+        "silk_overlap|84500000|95890000|a4166ff7-ff7b-45ee-abd7-a611a7ec3855|0fccec3b-b667-46e1-a932-ad4f7f97d340",
+        "silk_overlap|84500000|95890000|a4166ff7-ff7b-45ee-abd7-a611a7ec3855|1286007e-da48-4a35-a102-a2691806d810"
+      ],
       "meta": {
         "version": 2
       },
@@ -129,7 +146,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.125,
-        "min_text_height": 0.8,
+        "min_text_height": 0.4,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.125,
