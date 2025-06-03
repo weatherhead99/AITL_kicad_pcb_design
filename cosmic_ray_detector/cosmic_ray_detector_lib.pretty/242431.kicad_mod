@@ -88,7 +88,6 @@
 			)
 		)
 	)
-	(sheetfile "cosmic_ray_detector.kicad_sch")
 	(attr through_hole)
 	(fp_line
 		(start -4.25 -5.08)
