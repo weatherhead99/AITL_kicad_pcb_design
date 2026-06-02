@@ -1,9 +1,15 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ce45352f-f18d-4732-8c6e-fabedfbfebfc")
 	(paper "A4")
+	(title_block
+		(title "AITL Simple Cosmic Ray Detector")
+		(date "2026-06-02")
+		(rev "${PROJ_REV}")
+		(comment 1 "design by: Dan Weatherill")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -15,8 +21,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +36,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,47 +47,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -108,7 +130,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +148,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,8 +176,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -164,6 +190,8 @@
 			)
 			(property "Value" "R_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -172,47 +200,57 @@
 			)
 			(property "Footprint" ""
 				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_US_0_1"
@@ -281,7 +319,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,7 +337,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -324,8 +362,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -335,6 +377,8 @@
 			)
 			(property "Value" "TLV3501AIDBVTG4"
 				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -344,106 +388,128 @@
 			)
 			(property "Footprint" "SOT95P280X145-6N"
 				(at 24.13 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv3501"
 				(at 24.13 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "Analog Comparators 4.5ns Rail-to-Rail High Speed"
 				(at 24.13 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Height" "1.45"
 				(at 24.13 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
 				(at 24.13 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN" "TLV3501AIDBVTG4"
 				(at 24.13 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Mouser" "595-TLV3501AIDBVTG4"
 				(at 24.13 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV3501AIDBVTG4?qs=m96fseALk3USPaS4%252BJQhcQ%3D%3D"
 				(at 24.13 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Arrow Part Number" "TLV3501AIDBVTG4"
 				(at 24.13 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv3501aidbvtg4/texas-instruments?region=nac"
 				(at 24.13 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Farnell" "3118568"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -451,24 +517,6 @@
 				)
 			)
 			(symbol "TLV3501AIDBVTG4_0_0"
-				(pin passive line
-					(at 3.81 1.27 0)
-					(length 5.08)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 3.81 -5.08 0)
 					(length 5.08)
@@ -480,24 +528,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -524,16 +554,34 @@
 					)
 				)
 				(pin passive line
-					(at 17.145 -11.43 90)
+					(at 3.81 1.27 0)
 					(length 5.08)
-					(name "SHDN"
+					(name "+IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -559,6 +607,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 17.78 -11.43 90)
+					(length 5.08)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "TLV3501AIDBVTG4_0_1"
 				(polyline
@@ -577,24 +643,34 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5VA"
-			(power)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5VA"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -603,38 +679,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5VA\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5VA_0_1"
@@ -679,8 +763,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5VA"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,24 +782,34 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GNDA"
-			(power)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GNDA"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -725,38 +818,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GNDA_0_1"
@@ -777,8 +878,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GNDA"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,7 +899,7 @@
 	)
 	(text "NOTE that this is now a TTL compatible\noutput, so the label can be marked \"output\""
 		(exclude_from_sim no)
-		(at 201.168 130.81 0)
+		(at 200.66 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -810,7 +910,7 @@
 	)
 	(text "NOTE: situations like this\n(we know we want an 0603 resistor just not\nWHICH ONE), are partly why some people\nlike the approach of non-\"atomic\" parts.\nIt does make checking the BOM harder though\n"
 		(exclude_from_sim no)
-		(at 163.195 57.912 0)
+		(at 163.83 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -821,7 +921,7 @@
 	)
 	(text "These resistors set the hysteresis of\nthe comparator. We will leave their values\nundefined for now, but will specify\ntheir footprints"
 		(exclude_from_sim no)
-		(at 109.728 60.96 0)
+		(at 109.22 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,7 +932,7 @@
 	)
 	(text "The question of whether we should have\nused \"digital\" power supply here rather\nthan analog comes down to various\ndeep board layout issues that I don't\nwant to get into in this intro tutorial!"
 		(exclude_from_sim no)
-		(at 148.463 83.312 0)
+		(at 148.59 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -842,44 +942,44 @@
 		(uuid "ef643ecc-5ae6-4d3a-85e7-d7e421dd9ecb")
 	)
 	(junction
-		(at 142.748 87.63)
+		(at 142.24 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dd6741e-0fd1-4d38-9d54-4b434a5b3e1a")
 	)
 	(junction
-		(at 204.724 119.38)
+		(at 204.47 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "427f0b08-d8b3-4beb-b94f-dec6c8ceff08")
 	)
 	(junction
-		(at 109.474 66.548)
+		(at 109.22 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70fe1c4c-21db-4ad0-9e90-4438cf31a2f4")
 	)
 	(junction
-		(at 188.468 105.41)
+		(at 187.96 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a198cbdc-020c-4186-82b3-0566811c2bc0")
 	)
 	(junction
-		(at 142.748 134.112)
+		(at 142.24 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7423b4d-0a55-43f0-916b-0df999af7ede")
 	)
 	(junction
-		(at 173.228 87.63)
+		(at 172.72 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb0319d3-d14a-4e49-8ce5-65acb37299fd")
 	)
 	(wire
 		(pts
-			(xy 109.474 66.548) (xy 147.828 66.548)
+			(xy 109.22 66.04) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.548) (xy 96.012 66.548)
+			(xy 81.28 66.04) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.228 87.63) (xy 188.468 87.63)
+			(xy 172.72 87.63) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.347 115.57) (xy 109.474 66.548)
+			(xy 109.22 115.57) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.724 66.548) (xy 204.724 119.38)
+			(xy 204.47 66.04) (xy 204.47 119.38)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 87.63) (xy 173.228 87.63)
+			(xy 142.24 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.653 134.112) (xy 144.653 128.27)
+			(xy 144.78 134.62) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.228 100.33) (xy 173.228 105.41)
+			(xy 172.72 100.33) (xy 172.72 105.41)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 129.54) (xy 142.748 134.112)
+			(xy 142.24 129.54) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.468 87.63) (xy 188.468 92.71)
+			(xy 187.96 87.63) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.228 87.63) (xy 173.228 92.71)
+			(xy 172.72 87.63) (xy 172.72 92.71)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.724 119.38) (xy 210.058 119.38)
+			(xy 204.47 119.38) (xy 209.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.448 66.548) (xy 204.724 66.548)
+			(xy 154.94 66.04) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.632 66.548) (xy 109.474 66.548)
+			(xy 104.14 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 87.63) (xy 142.748 109.22)
+			(xy 142.24 87.63) (xy 142.24 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.228 105.41) (xy 188.468 105.41)
+			(xy 172.72 105.41) (xy 187.96 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 83.82) (xy 142.748 87.63)
+			(xy 142.24 83.82) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.318 115.57) (xy 109.347 115.57)
+			(xy 130.81 115.57) (xy 109.22 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 134.112) (xy 144.653 134.112)
+			(xy 142.24 134.62) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.468 100.33) (xy 188.468 105.41)
+			(xy 187.96 100.33) (xy 187.96 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.748 134.112) (xy 142.748 137.16)
+			(xy 142.24 134.62) (xy 142.24 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.468 105.41) (xy 188.468 109.22)
+			(xy 187.96 105.41) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.448 119.38) (xy 204.724 119.38)
+			(xy 154.94 119.38) (xy 204.47 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.122 121.92) (xy 131.318 121.92)
+			(xy 87.63 121.92) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1117,9 +1217,29 @@
 		)
 		(uuid "f2b656da-0c7a-40f8-b4fa-73a750e45a3b")
 	)
+	(label "Net-(R10-Pad1)"
+		(at 104.14 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "276c94f9-244d-433c-bcec-04824b90946e")
+	)
+	(label "Net-(R10-Pad1)"
+		(at 104.14 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27d21305-f24c-455d-8d54-1803a47c0c9d")
+	)
 	(hierarchical_label "VREF"
 		(shape passive)
-		(at 81.28 66.548 180)
+		(at 81.28 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1130,7 +1250,7 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape passive)
-		(at 87.122 121.92 180)
+		(at 87.63 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1141,7 +1261,7 @@
 	)
 	(hierarchical_label "COMP_OUT"
 		(shape output)
-		(at 210.058 119.38 0)
+		(at 209.55 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1152,51 +1272,65 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 142.748 83.82 0)
+		(at 142.24 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa1157d-4bd6-4969-b9fb-c0b119211af2")
 		(property "Reference" "#PWR016"
-			(at 142.748 87.63 0)
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VA"
-			(at 142.748 78.74 0)
+			(at 144.78 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.748 83.82 0)
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.748 83.82 0)
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.748 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1341,7 @@
 			(uuid "3cfb8fa1-01dc-43eb-be74-63e3c2902364")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "#PWR016")
 					(unit 1)
@@ -1217,16 +1351,20 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 188.468 96.52 0)
+		(at 187.96 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c1e93c8-4588-40f4-bfc3-97272164156b")
 		(property "Reference" "C18"
-			(at 192.278 95.2499 0)
+			(at 191.77 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1373,9 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 192.278 97.7899 0)
+			(at 191.77 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,26 +1383,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 189.4332 100.33 0)
+		(property "Footprint" "cosmic_ray_detector_lib:C_0402_1005Metric"
+			(at 188.9252 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 188.468 96.52 0)
+		(property "Datasheet" ""
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 188.468 96.52 0)
+			(at 187.96 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,30 +1416,36 @@
 			)
 		)
 		(property "Farnell" "1833802 "
-			(at 188.468 96.52 0)
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "04026D225KAT2A"
-			(at 188.468 96.52 0)
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera"
-			(at 188.468 96.52 0)
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1303,7 +1455,7 @@
 			(uuid "47e68a06-ffc8-4873-ba3b-58c862c6e9a7")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "C18")
 					(unit 1)
@@ -1313,50 +1465,62 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 99.822 66.548 90)
+		(at 100.33 66.04 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "360a8f93-7c90-432a-b456-b7959e8c8583")
 		(property "Reference" "R9"
-			(at 99.822 60.833 90)
+			(at 100.33 60.325 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 99.822 63.373 90)
+		(property "Value" ""
+			(at 100.33 62.865 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.076 65.532 90)
+		(property "Footprint" "cosmic_ray_detector_lib:R_0402_1005Metric"
+			(at 100.584 65.024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 99.822 66.548 0)
+		(property "Datasheet" ""
+			(at 100.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 99.822 66.548 0)
+			(at 100.33 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1534,7 @@
 			(uuid "fcf04e5f-08f1-46ce-bf93-baed80a1ff09")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "R9")
 					(unit 1)
@@ -1380,16 +1544,20 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.228 96.52 0)
+		(at 172.72 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f0c0d0-5fbc-41c5-b480-ee52e9c49a15")
 		(property "Reference" "C17"
-			(at 177.038 95.2499 0)
+			(at 176.53 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1566,9 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 177.038 97.7899 0)
+			(at 176.53 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,26 +1576,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 174.1932 100.33 0)
+		(property "Footprint" "cosmic_ray_detector_lib:C_0402_1005Metric"
+			(at 173.6852 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 173.228 96.52 0)
+		(property "Datasheet" ""
+			(at 172.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 173.228 96.52 0)
+			(at 172.72 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1615,7 @@
 			(uuid "8c7ad431-18a5-4197-b13f-e4bbf0da7038")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "C17")
 					(unit 1)
@@ -1449,16 +1625,20 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 151.638 66.548 90)
+		(at 151.13 66.04 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b42055-9297-49b1-ae5e-21451e411d29")
 		(property "Reference" "R10"
-			(at 151.638 60.833 90)
+			(at 151.13 60.325 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,33 +1646,41 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 151.638 63.373 90)
+			(at 151.13 62.865 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.892 65.532 90)
+		(property "Footprint" "cosmic_ray_detector_lib:R_0402_1005Metric"
+			(at 151.384 65.024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 151.638 66.548 0)
+		(property "Datasheet" ""
+			(at 151.13 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 151.638 66.548 0)
+			(at 151.13 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1694,7 @@
 			(uuid "4f835989-7e9b-42c8-b48f-e68eac904303")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "R10")
 					(unit 1)
@@ -1516,16 +1704,20 @@
 	)
 	(symbol
 		(lib_id "cosmic_ray_symbols:TLV3501AIDBVTG4")
-		(at 127.508 116.84 0)
+		(at 127 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3aa5f2-62c8-4412-beae-b6c8e5ade3ec")
 		(property "Reference" "U4"
-			(at 160.02 115.0493 0)
+			(at 160.02 110.4198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1725,9 @@
 			)
 		)
 		(property "Value" "TLV3501AIDBVTG4"
-			(at 160.02 117.5893 0)
+			(at 160.02 112.9598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,112 +1735,133 @@
 			)
 		)
 		(property "Footprint" "cosmic_ray_detector_lib:SOT95P280X145-6N"
-			(at 151.638 114.3 0)
+			(at 151.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv3501"
-			(at 151.638 116.84 0)
+			(at 151.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "Analog Comparators 4.5ns Rail-to-Rail High Speed"
-			(at 151.638 119.38 0)
+			(at 151.13 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Height" "1.45"
-			(at 151.638 121.92 0)
+			(at 151.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 151.638 124.46 0)
+			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN" "TLV3501AIDBVTG4"
-			(at 151.638 127 0)
+			(at 151.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser" "595-TLV3501AIDBVTG4"
-			(at 151.638 129.54 0)
+			(at 151.13 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV3501AIDBVTG4?qs=m96fseALk3USPaS4%252BJQhcQ%3D%3D"
-			(at 151.638 132.08 0)
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Arrow Part Number" "TLV3501AIDBVTG4"
-			(at 151.638 134.62 0)
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv3501aidbvtg4/texas-instruments?region=nac"
-			(at 151.638 137.16 0)
+			(at 151.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Farnell" "3118568"
-			(at 160.528 117.5893 0)
+			(at 160.02 115.4998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1668,7 +1883,7 @@
 			(uuid "7d347e50-ae89-4d26-b0e5-67feb53877b1")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "U4")
 					(unit 1)
@@ -1678,51 +1893,65 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 188.468 109.22 0)
+		(at 187.96 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea002a4-2d4e-4eb1-abfb-142158fc8b9d")
 		(property "Reference" "#PWR018"
-			(at 188.468 115.57 0)
+			(at 187.96 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
-			(at 188.468 114.3 0)
+			(at 189.992 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 188.468 109.22 0)
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 188.468 109.22 0)
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 188.468 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1962,7 @@
 			(uuid "e9c4bd5e-e01a-4fa6-931d-aa35acdafeac")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "#PWR018")
 					(unit 1)
@@ -1743,51 +1972,65 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 142.748 137.16 0)
+		(at 142.24 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c48699-040d-4a21-a5e0-4cf96efacb51")
 		(property "Reference" "#PWR017"
-			(at 142.748 143.51 0)
+			(at 142.24 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
-			(at 142.748 142.24 0)
+			(at 144.272 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.748 137.16 0)
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.748 137.16 0)
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.748 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2041,7 @@
 			(uuid "eaaacca3-e17b-43cd-93f5-a6a35af92391")
 		)
 		(instances
-			(project ""
+			(project "cosmic_ray_detector"
 				(path "/f6c67f56-a7d8-40b4-925b-78738a0748d6/86d8b01b-5c34-47c3-904c-67d3d9a70426"
 					(reference "#PWR017")
 					(unit 1)
