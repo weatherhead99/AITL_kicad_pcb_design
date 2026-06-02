@@ -1682,7 +1682,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SPI{~{SYNC} SCK SDI SDO}"
+	(hierarchical_label "SPI{SPIBUS}"
 		(shape bidirectional)
 		(at 224.79 104.14 0)
 		(effects

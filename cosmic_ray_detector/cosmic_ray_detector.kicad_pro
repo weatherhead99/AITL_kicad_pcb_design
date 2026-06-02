@@ -701,7 +701,14 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "SPIBUS": [
+        "~{SYNC}",
+        "SCK",
+        "SDI",
+        "SDO"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
