@@ -565,11 +565,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {
-      "+5VA": "rgb(255, 151, 35)",
-      "-5VA": "rgb(130, 47, 255)",
-      "GNDA": "rgb(111, 174, 93)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {
